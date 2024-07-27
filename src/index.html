@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es" class="overflow-x-hidden scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="./hamburgers.css" rel="stylesheet">
+    <link rel="icon" href="">
+    <script src="https://kit.fontawesome.com/4b083bbe31.js" crossorigin="anonymous"></script>
+    <title>Aneley | Alojamiento en Caviahue</title>
+</head>
+
+<body class="min-w-min w-full font-Montserrat">
+
+    <div class="hero-container h-dvh relative" id="Inicio">
+        <header class="w-full flex justify-center bg-nav-mob z-10 absolute">
+            <!-- DESKTOP -->
+            <div class="max-w-1200px w-full md:flex justify-between text-white hidden py-3 px-4 md:px-8">
+
+                <!-- LOGO -->
+                <div class="flex items-center">
+                    <img src="/assets/logo2.png" alt="Logo" width="80" class="mr-2">
+                    <p class="text-xl font-medium">Aneley<br> Alojamiento</p>
+                </div>
+
+                <!-- NAVEGACION -->
+                <nav class="flex items-center">
+                    <ul class="flex gap-20">
+                        <li class="text-lg hover:text-gray-200"><a href="#inicio">Inicio</a></li>
+                        <li class="text-lg hover:text-gray-200"><a href="#informacion">Información</a></li>
+                        <li class="text-lg hover:text-gray-200"><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- MOBILE -->
+            <div class="max-w-1200px w-full md:hidden flex flex-col text-white divHamb py-3 ">
+
+                <div class="flex justify-between w-full px-4 md:px-8">
+                    <!-- LOGO -->
+                    <div class="flex items-center">
+                        <img src="/assets/logo2.png" alt="Logo" width="80" class="mr-3 logo">
+                        <p class="text-xl font-medium">Aneley<br> Alojamiento</p>
+                    </div>
+
+                    <!-- BOTON -->
+                    <div class="flex btnHamb">
+                        <button class="hamburger hamburger--squeeze" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- NAVEGACION -->
+                <div class="w-full h-full px-0 mx-0 hidden navHamb">
+                    <nav class="px-0 mx-0 flex items-center justify-center h-full">
+                        <ul class="flex flex-col items-center justify-center gap-20 pl-4">
+                            <li class="text-xl hover:text-gray-300 text-center"><a href="#inicio"
+                                    class="li-mob">Inicio</a></li>
+                            <li class="text-xl hover:text-gray-300 text-center"><a href="#informacion"
+                                    class="li-mob">Información</a>
+                            </li>
+                            <li class="text-xl hover:text-gray-300 text-center"><a href="#contacto"
+                                    class="li-mob">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+
+        <section class="text-white flex items-center justify-center h-full w-full">
+            <article class="px-4 md:px-8 flex flex-col items-center md:items-start justify-center max-w-1200px w-full">
+
+                <h1 class="text-3xl font-semibold text-center sm:text-4xl md:text-5xl xl:text-6xl"><span
+                        class="text-green-main">Aneley</span>
+                    Alojamiento</h1>
+
+                <p class="text-center text-xl font-light sm:text-2xl my-3 ">Hospicio turístico en Neuquén, Caviahue.
+                </p>
+
+                <div class="flex flex-col items-center justify-center 400px:hidden">
+                    <p class="text-lg">¡Reservá tu estadía!</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                        class="bounce mb-1">
+                        <path fill="#ffffff" d="m12 18l-6-6l1.4-1.4l3.6 3.6V5h2v9.2l3.6-3.6L18 12z" />
+                    </svg>
+                    <button class="flex bg-white p-2 text-black items-center rounded-xl hover:scale-90 transition-all ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" class="mr-1">
+                            <path fill="#059669"
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967c-.273-.099-.471-.148-.67.15c-.197.297-.767.966-.94 1.164c-.173.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.018-.458.13-.606c.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372c-.272.297-1.04 1.016-1.04 2.479c0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625c.712.227 1.36.195 1.871.118c.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214l-3.741.982l.998-3.648l-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884c2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413" />
+                        </svg>
+                        Whatsapp
+                    </button>
+                </div>
+
+                <div class="hidden flex-row items-center justify-center 400px:flex">
+                    <p class="text-lg">¡Reservá tu estadía!</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                        class="bounce2 ml-1 mr-2">
+                        <path fill="#ffffff"
+                            d="M17.073 12.5H5.5q-.213 0-.357-.143T5 12t.143-.357t.357-.143h11.573l-3.735-3.734q-.146-.147-.152-.345t.152-.363q.166-.166.357-.168t.357.162l4.383 4.383q.13.13.183.267t.053.298t-.053.298t-.183.268l-4.383 4.382q-.146.146-.347.153t-.367-.159q-.16-.165-.162-.354t.162-.354z" />
+                    </svg>
+                    <button
+                        class="flex bg-white2 p-2 text-black items-center rounded-xl hover:scale-90 transition-all ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" class="mr-1">
+                            <path fill="#059669"
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967c-.273-.099-.471-.148-.67.15c-.197.297-.767.966-.94 1.164c-.173.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.018-.458.13-.606c.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372c-.272.297-1.04 1.016-1.04 2.479c0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625c.712.227 1.36.195 1.871.118c.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214l-3.741.982l.998-3.648l-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884c2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413" />
+                        </svg>
+                        Whatsapp
+                    </button>
+                </div>
+
+            </article>
+        </section>
+    </div>
+
+    <main class="flex flex-col items-center relative">
+        <img src="/assets/2832064.png" alt="" class="absolute img-car w-48">
+
+        <section class="flex items-center justify-center max-w-1200px w-full my-28">
+            <article class="px-4 md:px-8">
+                <div class="mb-3">
+                    <h2 class="font-bold text-3xl flex items-center">
+                        <img src="/assets/854945.png" width="50" alt="" class="mr-2">
+                        Galeria de imágenes
+                    </h2>
+                    <img src="/assets/landing-top-logo-img.png" alt="">
+                </div>
+
+                <div
+                    class="grid-gallery grid grid-cols-1 grid-rows-1 sm:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 gap-3">
+                    <a class="grid-gallery__item">
+                        <img class="grid-gallery__image rounded-lg w-96 h-56" src="/assets/bg-mountain-min.webp">
+                    </a>
+                    <a class="grid-gallery__item">
+                        <img class="grid-gallery__image rounded-lg w-96 h-56" src="/assets/china.jpeg">
+                    </a>
+                    <a class="grid-gallery__item">
+                        <img class="grid-gallery__image rounded-lg w-96 h-56" src="/assets/china1.jpg">
+                    </a>
+                    <a class="grid-gallery__item">
+                        <img class="grid-gallery__image rounded-lg w-96 h-56" src="/assets/d-thums-nx3.jpg">
+                    </a>
+                    <a class="grid-gallery__item">
+                        <img class="grid-gallery__image rounded-lg w-96 h-56" src="/assets/d-thums-nx4.jpg">
+                    </a>
+                    <a class="grid-gallery__item">
+                        <img class=" grid-gallery__image rounded-lg w-96 h-56" src="/assets/footer-bg.jpg">
+                    </a>
+                </div>
+
+                <div id="overlay" class="overlay">
+                    <span class="close">&times;</span>
+                    <img class="overlay__image" id="overlayImage" src="" alt="Imagen Agrandada">
+                </div>
+
+            </article>
+        </section>
+
+        <section
+            class="w-full h-72 flex flex-col justify-center items-center bg-esperas bg-center bg-no-repeat bg-cover border-b-[10px] border-t-[10px] border-gray-300 bg-fixed">
+            <article class="w-full flex flex-col items-center justify-center max-w-1200px px-4 md:px-8">
+                <p class="font-semibold text-3xl sm:text-4xl text-white font-Mulish mb-3 text-center">¿Qué esperás para
+                    hospedarte?
+                </p>
+                <button class="flex bg-white2 p-2 text-black items-center rounded-xl hover:scale-90 transition-all ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" class="mr-1">
+                        <path fill="#059669"
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967c-.273-.099-.471-.148-.67.15c-.197.297-.767.966-.94 1.164c-.173.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.018-.458.13-.606c.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372c-.272.297-1.04 1.016-1.04 2.479c0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625c.712.227 1.36.195 1.871.118c.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214l-3.741.982l.998-3.648l-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884c2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413" />
+                    </svg>
+                    Whatsapp
+                </button>
+            </article>
+        </section>
+
+        <section class="w-full h-auto flex flex-col justify-center items-center py-5 md:py-6 lg:py-8 xl:py-12 my-16">
+            <article class="px-4 md:px-8 max-w-1200px w-full flex flex-col items-center lg:flex-row lg:justify-between">
+                <div class="max-w-[640px]">
+                    <h2 class="text-3xl font-bold flex items-center ">
+                        <img src="/assets/893292.png" width="50" alt="" class="mr-3">
+                        Información
+                    </h2>
+                    <img src="/assets/landing-top-logo-img.png" alt="">
+                    <p class="text-black font-normal lg:font-light mt-4">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Cum
+                        fuga magni
+                        voluptates
+                        officia, minima tempore sed blanditiis, quo earum totam harum. Cum, minima! Voluptatum,
+                        excepturi qui. Rerum temporibus labore hic nisi consequatur! Nam minima hic adipisci porro
+                        perspiciatis, fugiat autem nihil sed atque harum nisi eos? Magnam quis vitae nisi.</p>
+
+                    <div class="flex gap-2 my-4 rounded-xl shadow-xl p-3 bg-white w-full">
+                        <figure class="mx-0 sm:mx-2">
+                            <img src="/assets/1600130.png" alt="" class="w-32">
+                        </figure>
+                        <div class="">
+                            <h3 class="font-semibold text-xl">Datos importantes</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2 my-4 rounded-xl shadow-xl p-3 bg-white">
+                        <figure class="mx-0 sm:mx-2">
+                            <img src="/assets/5293953.png" alt="" class="w-32">
+                        </figure>
+                        <div class="">
+                            <h3 class="font-semibold text-xl">Ubicación</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been</p>
+                        </div>
+                    </div>
+
+                </div>
+                <img src="/assets/mask.webp" alt="" width="500">
+            </article>
+        </section>
+
+        <section
+            class="bg-contacto flex flex-col items-center justify-center h-[620px] w-full bg-cover bg-no-repeat bg-center px-4 ">
+
+            <article
+                class="px-4 md:px-8 flex flex-col py-5 items-start w-full h-full bg-contacto2 rounded-2xl my-12 justify-between sm:flex-row sm:items-center sm:justify-around max-w-[400px] sm:max-w-[850px] max-h-[600px] sm:max-h-[400px]">
+
+                <div class="mx-auto sm:mx-0">
+                    <div class="">
+                        <h2
+                            class="flex flex-row-reverse items-center font-semibold text-2xl justify-end md:text-3xl ">
+                            Contacto
+                            <img src="/assets/2593514.png" alt="" width="50" class="mr-2">
+                        </h2>
+                        <img src="/assets/landing-top-logo-img.png" alt="">
+                    </div>
+
+                    <div class="grid grid-cols-1 grid-rows-4 gap-2 my-4 items-center mx-auto">
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-phone mr-3 text-2xl sm:text-3xl"></i>
+                            <p class="text-lg font-medium">+54 9 3442 38-9490</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-envelope mr-3 text-2xl text-emerald-700 sm:text-3xl"></i>
+                            <p class="text-lg font-medium">aneley@gmail.com</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-brands fa-instagram mr-3 text-2xl text-pink-600 sm:text-3xl"></i>
+                            <p class="text-lg font-medium">@aneley.alojamiento</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-brands fa-facebook mr-3 text-2xl text-blue-600 sm:text-3xl"></i>
+                            <p class="text-lg font-medium">Aneley Alojamiento</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mx-auto sm:mx-0">
+                    <img src="/assets/moutain.png" alt="" class="w-60 md:w-64 lg:w-72">
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="h-full w-full flex justify-center my-12">
+        <article class="max-w-1200px flex flex-col w-full px-4 md:px-8">
+
+            <p class="text-center mb-4">Todos los derechos reservados &copy;</p>
+
+            <div class="w-full flex justify-between border-t-2 border-black pt-2">
+                <p>
+                    <a href="" target="_blank" rel="noopener"
+                        class="border-b-2 border-black">@Faustino Klug</a>
+                </p>
+                <ul class="flex">
+                    <li><a href="" class="cursor-pointer"><i class="fa-brands fa-instagram text-2xl sm:text-3xl"></i></a></li>
+                    <li><a href="" class="cursor-pointer"><i class="fa-brands fa-facebook mx-3 text-2xl sm:text-3xl"></i></a></li>
+                    <li><a href="" class="cursor-pointer"><i class="fa-brands fa-whatsapp text-2xl sm:text-3xl"></i></a></li>
+                </ul>
+            </div>
+        </article>
+    </footer>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
