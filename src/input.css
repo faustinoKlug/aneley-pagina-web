@@ -7,7 +7,7 @@
 
 @layer base {
  .hero-container {
-  background: url(/assets/banner-t.jpg);
+  background: url(assets/banner-t.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,11 +15,14 @@
 
  .bg-contacto {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-   url(/assets/pexels-daniel-bask-4330825.jpg);
+   url(assets/pexels-daniel-bask-4330825.jpg);
  }
 
  .bg-contacto2 {
-   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+  background: linear-gradient(
+   rgba(255, 255, 255, 0.7),
+   rgba(255, 255, 255, 0.7)
+  );
  }
 
  .bg-nav-mob {
@@ -85,7 +88,7 @@
 
  .bg-esperas {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-   url(/assets/peakpx.jpg);
+   url(assets/peakpx.jpg);
  }
 
  .bounce {
