@@ -7,7 +7,7 @@
 
 @layer base {
  .hero-container {
-  background: url(assets/banner-t.jpg);
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(assets/asdasd.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,5 +134,9 @@
   right: 30px;
   top: -130px;
   rotate: -10deg;
+ }
+
+ .img-borde {
+  top: 50px;
  }
 }

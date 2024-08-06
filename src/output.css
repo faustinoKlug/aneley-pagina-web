@@ -451,7 +451,7 @@ video {
 }
 
 .hero-container {
-  background: url(assets/banner-t.jpg);
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(assets/asdasd.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -563,6 +563,10 @@ video {
   right: 30px;
   top: -130px;
   rotate: -10deg;
+}
+
+.img-borde {
+  top: 50px;
 }
 
 *, ::before, ::after{
@@ -713,11 +717,6 @@ video {
   margin-bottom: 3rem;
 }
 
-.my-16{
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
 .my-28{
   margin-top: 7rem;
   margin-bottom: 7rem;
@@ -728,6 +727,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-32{
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -736,11 +740,6 @@ video {
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-32{
-  margin-top: 8rem;
-  margin-bottom: 8rem;
 }
 
 .mb-1{
@@ -983,19 +982,9 @@ video {
   background-repeat: no-repeat;
 }
 
-.object-contain{
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-fill{
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .p-2{
